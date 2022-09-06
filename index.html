@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <title>Day finder</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Day finder</h1>
+        <input id="day" type="number" placeholder="day" required  minlength="1">
+        <select name="" id="month">
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+        </select>
+        <input id="year" type="number" placeholder="year" required minlength="1">
+        <button id="find">Find</button>
+        <span id="result">Day</span>
+        <h2 id="errorSec"></h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

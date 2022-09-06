@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #E3E7EA;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: #E3E7EA;
+    gap: 25px;
+    align-items: center;
+    padding: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+}
+.container input, .container select{
+    width: 90%;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #E3E7EA;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container input:focus, .container select:focus{
+    outline: none;
+}
+.container button{
+    padding: 15px 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(12, 110, 221);
+    cursor: pointer;
+    border-radius: 10px;
+}
+#result{
+    font-size: 20px;
+    padding: 20px;
+    max-width: 80%;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+}
+#errorSec{
+    color: rgb(255, 60, 0);
+}
